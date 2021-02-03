@@ -22,10 +22,6 @@ configurations {
 
 // JAR Task
 jar {
-manifest {
-    attributes(
-      "Class-Path": configurations.compile.collect { it.getName() }.join(' '))
-  }
     assert file("${TP_SDK}").exists() : "TestProject SDK JAR file was not found, please update the TP_SDK variable"
     archiveName "${rootProject.name}-${version}.jar"
     dependsOn configurations.runtime
