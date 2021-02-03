@@ -40,6 +40,9 @@ jar {
             }
         }
     }
+    manifest {
+        from 'MANIFEST.MF'
+    }
 
 
 }
