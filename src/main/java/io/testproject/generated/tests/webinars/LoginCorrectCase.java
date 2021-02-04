@@ -71,9 +71,9 @@ String result=null;
     report.step("Click 'DIV'", booleanResult, TakeScreenshotConditionType.Inherit);
 
     // 6. Click 'Se connecter'
-    by = By.xpath("//button[. = 'Se concter']");
+    by = By.xpath("//button[. = 'Se connecter']");
     booleanResult = driver.testproject().click(by);
-    report.step("Click 'Se concter'", booleanResult, TakeScreenshotConditionType.Inherit);
+    report.step("Click 'Se connecter'", booleanResult, TakeScreenshotConditionType.Inherit);
 
     
   //TestLink Results
