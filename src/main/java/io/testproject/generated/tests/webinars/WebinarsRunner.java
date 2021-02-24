@@ -11,7 +11,7 @@ import java.lang.String;
  * Provides an example how to run coded TestProject tests
  */
 public class WebinarsRunner {
-  public static String developerToken = "EV35F8gUOoD8-dRQnwvReLhm6gylW_2T3f5Tv9TYD7w1";
+  public static String developerToken = "C_Aptv8juqSawM1NGHb-oP-A5_WqX8EoCmv3ti2Aa-c1";
 
   public static AutomatedBrowserType browserType = AutomatedBrowserType.Chrome;
 
